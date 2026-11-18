@@ -1,0 +1,37 @@
+//Copyright (C) Thomas McCammon 2026
+<html id="id">
+<body id="wrapper">
+<script>
+//
+var $=Function(console.log(' ')); //(this.parent.event.srcElement='')
+const elem = document.getElementById("id");
+var z = screen.availWidth;
+var b = screen.width;
+var c = screen.height;
+var l = this.window.devicePixelRatio;
+//
+elem.addEventListener("click", function(event) {
+    // Coordinates relative to the element's padding box
+    //const x = event.offsetX;
+    //const y = event.offsetY;
+    //
+    const xx = event.clientX;
+    const yy = event.clientY;
+    //
+    const xxx = event.pageX;
+    const yyy = event.pageY;
+    //
+    const x = event.screenX;
+    const y = event.screenY;
+	
+    //const chunk = ((b*c)/2)/4;
+	
+    {alert((x*y)/2);} 
+	
+});
+document.write(z + "<br>" + b + "<br>" + c + "<br>" + l);
+</script>
+<a href=":^W">kcilc</a>
+<a href="javascript:(a) ?  ' ' : ' '">click</a>			    
+</body>					
+</html>
